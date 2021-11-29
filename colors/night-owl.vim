@@ -41,7 +41,7 @@ hi StatusLineNC guifg=#777777 ctermfg=243 guibg=#112630 ctermbg=235 gui=NONE cte
 hi Title guifg=#82aaff ctermfg=111 gui=bold cterm=bold
 hi Visual guifg=#d6deeb ctermfg=253 guibg=#2d2c5d ctermbg=236 gui=NONE cterm=NONE
 hi EndOfBuffer guifg=#444444 ctermfg=238 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
-hi Comment guifg=#637777 ctermfg=243 gui=italic cterm=italic
+hi Comment guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi Constant guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi String guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi Identifier guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
@@ -58,7 +58,7 @@ hi jsStorageClass guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi jsOperator guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsArrowFunction guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsString guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
-hi jsComment guifg=#637777 ctermfg=243 gui=italic cterm=italic
+hi jsComment guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi jsFuncCall guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi jsNumber guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
 hi jsSpecial guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
@@ -73,25 +73,25 @@ hi jsReturn guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsFuncName guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi link jsParensError jsFuncParens
 hi jsClassDefinition guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
-hi jsImport guifg=#c792ea ctermfg=176 gui=italic cterm=italic
-hi jsFrom guifg=#c792ea ctermfg=176 gui=italic cterm=italic
-hi jsModuleAs guifg=#c792ea ctermfg=176 gui=italic cterm=italic
+hi jsImport guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
+hi jsFrom guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
+hi jsModuleAs guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi jsExport guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi jsExportDefault guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
-hi jsExtendsKeyword guifg=#c792ea ctermfg=176 gui=italic cterm=italic
+hi jsExtendsKeyword guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptReserved guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi javaScriptConditional guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptStringS guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi javaScriptBoolean guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi javaScriptBraces guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
-hi javaScriptLineComment guifg=#637777 ctermfg=243 gui=italic cterm=italic
+hi javaScriptLineComment guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi javaScriptSpecial guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
 hi javaScriptFunction guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi javaScriptStatement guifg=#c792ea ctermfg=176 gui=NONE cterm=NONE
 hi javaScriptException guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi scssSelectorName guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi cssTagName guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
-hi cssClassName guifg=#addb67 ctermfg=149 gui=italic cterm=italic
+hi cssClassName guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi link cssClassNameDot cssClassName
 hi cssBraces guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
 hi cssPositioningProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
@@ -111,11 +111,11 @@ hi cssCommonAttr guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi cssColorProp guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi cssIncludeKeyword guifg=#7fdbca ctermfg=116 gui=NONE cterm=NONE
 hi cssKeyFrameSelector guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
-hi cssPseudoClassId guifg=#addb67 ctermfg=149 gui=italic cterm=italic
+hi cssPseudoClassId guifg=#addb67 ctermfg=149 gui=NONE cterm=NONE
 hi cssBorderAttr guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi cssValueLength guifg=#f78c6c ctermfg=209 gui=NONE cterm=NONE
 hi cssUnitDecorators guifg=#fbec9f ctermfg=229 gui=NONE cterm=NONE
-hi cssIdentifier guifg=#f4d554 ctermfg=221 gui=italic cterm=italic
+hi cssIdentifier guifg=#f4d554 ctermfg=221 gui=NONE cterm=NONE
 hi markdownHeadingDelimiter guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi markdownCodeDelimiter guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
 hi markdownCode guifg=#aaaaaa ctermfg=248 gui=NONE cterm=NONE
@@ -129,11 +129,11 @@ hi link htmlH3 htmlH1
 hi htmlH4 guifg=#82aaff ctermfg=111 gui=NONE cterm=NONE
 hi link htmlH5 htmlH4
 hi htmlBold guifg=#c792ea ctermfg=176 guibg=#011627 ctermbg=233 gui=bold cterm=bold
-hi shComment guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=italic cterm=italic
+hi shComment guifg=#637777 ctermfg=243 guibg=#011627 ctermbg=233 gui=NONE cterm=NONE
 hi NERDTreeDir guifg=#5f7e97 ctermfg=66 gui=NONE cterm=NONE
 hi NERDTreeOpenable guifg=#ff5874 ctermfg=204 gui=NONE cterm=NONE
 hi NERDTreeClosable guifg=#ecc48d ctermfg=222 gui=NONE cterm=NONE
-hi NERDTreeHelp guifg=#444444 ctermfg=238 gui=italic cterm=italic
+hi NERDTreeHelp guifg=#444444 ctermfg=238 gui=NONE cterm=NONE
 hi NERDTreeUp guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi NERDTreeDirSlash guifg=#637777 ctermfg=243 gui=NONE cterm=NONE
 hi gitcommitSummary guifg=#d6deeb ctermfg=253 gui=NONE cterm=NONE
